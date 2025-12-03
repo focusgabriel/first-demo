@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10324ddb91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="about_header">
+            <a href="index.html"><img src="images/logo.png" alt="" width="170px" height="50px"></a>
+
+
+            <div class="about_content">
+            <h1>Programs</h1>
+        </div>
+
+            <i class="fa fa-bars" aria-hidden="true" id="show"></i>
+            <div class="ul_list">
+                
+                <ul>
+                    <i class="fa fa-times" aria-hidden="true" id="close"></i>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="blog_page">
+            <div class="left">
+            <img src="images/certificate.jpg" alt="">
+            <h3 style="margin-bottom: 30px;">Our Certificate & Online Programs For 2025</h3>
+            <p style="margin-bottom: 30px;">Our Online programs are now open to anyone looking forward to studying in our university
+                you can sign up <a href="contact.html">Here</a>, so you can start your course placement. some of our post
+                graduate courses are listed above, you can also message us for more information.
+                you will also receive a certification upon completion of your course, one of the benefit of our online 
+                programs are you will learn on your own pace,one on one tutor and other things provided along
+                the long run. you can't afford to miss out this opportunity, hurry up now and get started.
+            </p>
+
+            <div class="input_field">
+                <form action="">
+                    <h4>Leave a comment</h4>
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" cols="50"></textarea>
+                    <button class="form_button">Post Comment</button>
+                </form>
+
+            </div>
+            </div>
+            <div class="blog_content">
+                <ul>
+                    <li><h3>Post Categories</h3></li>
+                    <li>Business Analytics <span>21</span></li>
+                    <li>Data Science <span>28</span></li>
+                    <li>Machine Learning <span>15</span></li>
+                    <li>Computer Science <span>34</span></li>
+                    <li>AutoCAD <span>44</span></li>
+                    <li>Journalism <span>22</span></li>
+                    <li>Commerce <span>13</span></li>
+                </ul>
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+
+
+    <footer class="footer blog_footer">
+        <h4>About Us</h4>
+        <p> The World's Biggest University... , to know more about us click <a href="about.html" style="color:orange">Here</a></p>
+        <div class="icon">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-whatsapp" aria-hidden="true" ></i>
+        </div>
+
+    </footer>
+
+    <script>
+
+       document.querySelector("#show").onclick = ()=> {
+            document.querySelector(".ul_list").style.width = "200px";
+        }
+
+        document.querySelector("#close").onclick = ()=> {
+            document.querySelector(".ul_list").style.width = "0";
+        }
+
+        </script>
+
+</body>
+</html>

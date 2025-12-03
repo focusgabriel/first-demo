@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10324ddb91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="header">
+            <a href="index.html"><img src="images/logo.png" alt="" width="170px"  height="50px"></a>
+
+
+            <div class="content">
+            <h1>
+                World's Biggest University
+            </h1>
+            <p>Making website is now one of the easiest thing in the world, just with HTML, <br> CSS and JavaScript, and you are good to go.
+            </p>
+            <a href="blog.html" class="button">Visit us to know more..</a>
+        </div>
+
+            <i class="fa fa-bars" aria-hidden="true" id="show"></i>
+            <div class="ul_list">
+                
+                <ul>
+                    <i class="fa fa-times" aria-hidden="true" id="close"></i>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="courses">
+            <div class="content">
+
+            <h2>Courses We Offer</h2>
+            <p>we offer the courses listed below</p>
+            </div>
+            <div class="content_box">
+            <div class="box">
+                <h3>Intermediate</h3>
+                <p> for Intermediate Students </p>
+            </div>
+
+            <div class="box">
+                <h3>Degree</h3>
+                <p> for Degree Students </p>
+            </div>
+
+            <div class="box">
+                <h3>Post Graduation</h3>
+                <p> for Post Graduate Students </p>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="campus">
+            <h2>Our Global Campus</h2>
+            <p>we have many campus all over the world, here are some of our campus</p>
+
+            <div class="campus_col">
+            <div class="camp_box a">
+                <div class="h3">
+                    <h3>London</h3>
+                </div>
+            </div>
+
+            <div class="camp_box b">
+                <div class="h3">
+                    <h3>New York</h3>
+                </div>
+            </div>
+
+            <div class="camp_box c">
+                <div class="h3">
+                    <h3>Washington D.C</h3>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="facility">
+            <h2>Our Facilities</h2>
+            <p style="text-align: center;">We provide adequate facilities for our Students</p>
+
+                <div class="facility_box">
+            <div class="box">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p> Our Library has alot of helpful books for students to really help them in their studies
+                and it is regularly open for all our students during there leisure time </p>
+            </div>
+
+            <div class="box">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>one of our priority is to make our students environment enjoyable 
+                    and from sports we can help our student develop fitness
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty and Health Foods</h3>
+                <p>we ensure to provide for our student adequate and good meal on a regular basis</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="review">
+            <h2>What Our Students Say</h2>
+            <p>Reviews from students of our University</p>
+
+             <div class="review_box">
+            <div class="box">
+                
+                <p><span class="image e"></span> I,encourage everyone out there looking for where to study to come
+                    study here, you won't regret any moment of it.
+                </p>
+                <h3>Christine Berkely</h3>
+            </div>
+
+            <div class="box">
+                
+                <p><span class="image d"></span> One of the Best University in the World, I encourage everyone, to come study here,
+                    it is really worthwhile.
+                </p>
+                <h3>David Byer</h3>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="apply">
+            <div class="apply_content">
+            <h2>Enroll For Our Various Online Courses Anywhere From The World</h2>
+            <a href="contact.html" class="button">Contact us</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p> The World's Biggest University... , to know more about us click <a href="about.html" style="color:orange">Here</a></p>
+
+        <div class="icon">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </div>
+
+    </footer>
+
+    <script>
+
+       document.querySelector("#show").onclick = ()=> {
+            document.querySelector(".ul_list").style.width = "200px";
+        }
+
+        document.querySelector("#close").onclick = ()=> {
+            document.querySelector(".ul_list").style.width = "0";
+        }
+
+        </script>
+
+</body>
+</html>
