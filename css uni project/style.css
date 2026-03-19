@@ -259,6 +259,7 @@ a{
     padding: 50px;
     background: rgba(243, 212, 217,0.4);
     margin: 20px;
+    border-radius: 10px;
     position: relative;
 }
 .review_box  .image{
